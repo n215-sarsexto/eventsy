@@ -8,13 +8,23 @@
 }*/
 
 @mixin header-background($bg-img: url("../images/about.jpg"), $gradient-color: rgba(255, 209, 64, 0.8)){
-  .header-image{
-    max-width: $content-width;
-    height: 379px;
+    .header-image{
+      max-width: $content-width;
+      height: 379px;
+      background-image: linear-gradient($gradient-color, $gradient-color), $bg-img;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+  }
+}
+@mixin gallery-image($bg-img: url("../images/1.png"), $gradient-color: rgba(255, 209, 64, 0.8), $width: 489px){
+  .gallery{
+    height: 100%;
+    max-width: $width;
     background-image: linear-gradient($gradient-color, $gradient-color), $bg-img;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
-}
+  }
 }

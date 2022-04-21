@@ -117,7 +117,31 @@ var aboutContent = `<div class="about-content">
   </p>
 </div>
 </div>`;
-var galleryContent = ``;
+var galleryContent = `<div class="gallery">
+<div class="gallery-header">
+  <h2>GALLERY:</h2>
+  <hr />
+</div>
+<div class="gallery-row-one">
+  <div id="one">
+    <a href="#gallery1"><div class="gallery"></div></a>
+  </div>
+  <div id="two">
+    <a href="#gallery2"><div class="gallery"></div></a>
+  </div>
+  <div id="three">
+    <a href="#gallery3"><div class="gallery"></div></a>
+  </div>
+</div>
+<div class="gallery-row-two">
+  <div id="four">
+    <a href="#gallery4"><div class="gallery"></div></a>
+  </div>
+  <div id="five">
+    <a href="#gallery5"><div class="gallery"></div></a>
+  </div>
+</div>
+</div>`;
 var gallery1Content = `<div class="gallery-item" id="gallery1">
 <div class="header-image">
   <div class="header-text">

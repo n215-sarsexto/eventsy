@@ -58,13 +58,13 @@
     }
 }
 #gallery4{
-    @include header-background($bg-img: url("../images/3.jpg"), $gradient-color: rgba(84, 13, 110, 0.8));
+    @include header-background($bg-img: url("../images/4.jpg"), $gradient-color: rgba(84, 13, 110, 0.8));
     .header-image{
         color: $site-purple;
     }
 }
 #gallery5{
-    @include header-background($bg-img: url("../images/3.jpg"), $gradient-color: rgba(59, 206, 171, 0.8));
+    @include header-background($bg-img: url("../images/5.png"), $gradient-color: rgba(59, 206, 171, 0.8));
     .header-image{
         color: $site-teal;
     }
