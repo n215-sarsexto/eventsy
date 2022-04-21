@@ -1,0 +1,20 @@
+/* Example
+@mixin location-background($bg-img: url("../images/israel.png")) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    $bg-img;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+@mixin header-background($bg-img: url("../images/about.jpg")){
+  .header-image{
+    max-width: 980px;
+    height: 379px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), $bg-img;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}

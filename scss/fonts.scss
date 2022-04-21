@@ -1,0 +1,30 @@
+//Importing fonts for use
+
+@font-face {
+    font-family: GillSans;
+    src: url(../lib/fonts/GillSans.ttf);
+}
+
+@font-face {
+    font-family: PTSerif;
+    src: url(../lib/fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSerifBold;
+    src: url(../lib/fonts/PTSerif-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PTSerifBoldItalic;
+    src: url(../lib/fonts/PTSerif-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PTSerifItalic;
+    src: url(../lib/fonts/PTSerif-Italic.ttf);
+    font-style: italic;
+}

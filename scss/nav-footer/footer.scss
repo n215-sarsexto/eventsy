@@ -1,0 +1,69 @@
+footer{
+    width: 100%;
+    min-height: 455px;
+    background-color: $site-pink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: GillSans;
+
+    .logo{
+        margin-top: 36px;
+        margin-bottom: 46px;
+    }
+    p{
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .newsletter{
+        margin-top: 46px;
+        max-width: 696px;
+        min-height: 60px;
+        display: flex;
+
+        .subscribe{
+            background-color: #F56B88;
+            width: 529px;
+            font-size: 16px;
+            padding: 20px;
+            color: rgba(255,255,255, 0.5);
+            font-family: GillSans;
+        }
+        button{
+            background-color: #fff;
+            color: $site-pink;
+            width: 167px;
+            border: none;
+        }
+    }
+    .icons{
+        color: #fff;
+        font-size: 32px;
+        i{
+            padding: 30px;
+        }
+    }
+    h6{
+        color: rgba(255,255,255, 0.5);
+        font-size: 12px;
+        margin-top: 16px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    /* For phone screens */
+    footer{
+        .newsletter{
+            flex-direction: column;
+            .subscribe{
+                width: 100%;
+            }
+            button{
+                height: 60px;
+                width: 100%;
+            }
+        }
+    }
+}
