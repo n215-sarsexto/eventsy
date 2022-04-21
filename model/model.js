@@ -500,7 +500,23 @@ var blog5Content = `<div class="blog-item" id="blog5">
   </p>
 </div>
 </div>`;
-var contactContent = ``;
+var contactContent = `<div class="contact">
+<div class="contact-header">
+  <h2>CONTACT US:</h2>
+  <hr />
+</div>
+
+<div class="contact-content">
+  <div class="contact-form">
+    <input type="text" name="name" placeholder="Your name..." />
+    <input type="text" name="email" placeholder="Email address..." />
+    <input type="text" name="company" placeholder="Company..." />
+    <textarea>Message...</textarea>
+    <button>SEND MESSAGE</button>
+  </div>
+  <div class="map"></div>
+</div>
+</div>`;
 
 
 export function modelPageName(pgName){    
