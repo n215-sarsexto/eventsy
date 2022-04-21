@@ -1,0 +1,100 @@
+.gallery-item{
+    max-width: $content-width;
+    margin: 0 auto;
+    padding-top: 51px;
+    padding-bottom: 73px;
+
+    .header-image{
+        .header-text{
+            max-width: $content-width;
+            height: 250px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+            p{
+                font-size: 250px;
+                margin-bottom: 0px;
+            }
+            span{
+                font-size: 100px;
+            }
+        }
+    }
+
+    .gallery-text{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 51px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        font-style: italic;
+        .large{
+            width: 490px;
+        }
+        .small{
+            width: 450px;
+        }
+    }
+}
+#gallery1{
+    @include header-background($bg-img: url("../images/1.png"), $gradient-color: rgba(255, 209, 64, 0.8));
+    .header-image{
+        color: $site-yellow;
+    }
+}
+#gallery2{
+    @include header-background($bg-img: url("../images/2.jpeg"), $gradient-color: rgba(238, 67, 103, 0.8));
+    .header-image{
+        color: $site-pink;
+    }
+}
+#gallery3{
+    @include header-background($bg-img: url("../images/3.jpg"), $gradient-color: rgba(8, 173, 105, 0.8));
+    .header-image{
+        color: $site-green;
+    }
+}
+#gallery4{
+    @include header-background($bg-img: url("../images/3.jpg"), $gradient-color: rgba(84, 13, 110, 0.8));
+    .header-image{
+        color: $site-purple;
+    }
+}
+#gallery5{
+    @include header-background($bg-img: url("../images/3.jpg"), $gradient-color: rgba(59, 206, 171, 0.8));
+    .header-image{
+        color: $site-teal;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .gallery-item{
+
+        .header-image{
+            .header-text{
+                
+            height: 90px;
+               p{
+                   font-size: 90px;
+               }
+               span{
+                   font-size: 40px;
+               }
+            }
+        }
+        .gallery-text{
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            .large{
+                width: 90%;
+            }
+            .small{
+                width: 90%;
+            }
+        }
+    }
+}

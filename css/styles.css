@@ -58,7 +58,7 @@ nav .links a {
   font-size: 15px;
 }
 nav .links .divider {
-  color: #EE4367;
+  color: rgb(238, 67, 103);
   padding-left: 14px;
   padding-right: 14px;
 }
@@ -97,7 +97,7 @@ nav .links .divider {
 footer {
   width: 100%;
   min-height: 455px;
-  background-color: #EE4367;
+  background-color: rgb(238, 67, 103);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -128,7 +128,7 @@ footer .newsletter .subscribe {
 }
 footer .newsletter button {
   background-color: #fff;
-  color: #EE4367;
+  color: rgb(238, 67, 103);
   width: 167px;
   border: none;
 }
@@ -187,7 +187,7 @@ footer h6 {
   font-style: italic;
   font-weight: normal;
   font-size: 20px;
-  color: #EE4367;
+  color: rgb(238, 67, 103);
 }
 .hero-image p {
   max-width: 420px;
@@ -202,7 +202,7 @@ footer h6 {
 .hero-image button {
   width: 122px;
   height: 40px;
-  background-color: #EE4367;
+  background-color: rgb(238, 67, 103);
   color: #fff;
   border: none;
 }
@@ -229,7 +229,7 @@ footer h6 {
   font-style: italic;
 }
 .quote .content h4 {
-  color: #EE4367;
+  color: rgb(238, 67, 103);
   font-size: 15px;
   font-family: PTSerif;
   margin-bottom: 5px;
@@ -247,7 +247,7 @@ footer h6 {
 .events-container {
   width: 100%;
   min-height: 320px;
-  background-color: #540D6E;
+  background-color: rgb(84, 13, 110);
   margin: 0 auto;
 }
 .events-container .header {
@@ -281,7 +281,7 @@ footer h6 {
 .events-container .events .event .date {
   width: 60px;
   height: 60px;
-  background-color: #EE4367;
+  background-color: rgb(238, 67, 103);
   color: #fff;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -306,7 +306,7 @@ footer h6 {
   color: #fff;
 }
 .events-container .events .event .content p {
-  color: #EE4367;
+  color: rgb(238, 67, 103);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 12px;
 }
@@ -352,11 +352,11 @@ footer h6 {
 .about-content .header-image {
   max-width: 980px;
   height: 379px;
-  margin: 0 auto;
   background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url("../images/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .about-content .header-image {
   position: relative;
@@ -389,6 +389,131 @@ footer h6 {
   }
   .about-content .about {
     padding: 10px;
+  }
+}
+.gallery-item {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 73px;
+}
+.gallery-item .header-image .header-text {
+  max-width: 980px;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+.gallery-item .header-image .header-text p {
+  font-size: 250px;
+  margin-bottom: 0px;
+}
+.gallery-item .header-image .header-text span {
+  font-size: 100px;
+}
+.gallery-item .gallery-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.gallery-item .gallery-text .large {
+  width: 490px;
+}
+.gallery-item .gallery-text .small {
+  width: 450px;
+}
+
+#gallery1 .header-image {
+  max-width: 980px;
+  height: 379px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url("../images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#gallery1 .header-image {
+  color: rgb(255, 209, 64);
+}
+
+#gallery2 .header-image {
+  max-width: 980px;
+  height: 379px;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url("../images/2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#gallery2 .header-image {
+  color: rgb(238, 67, 103);
+}
+
+#gallery3 .header-image {
+  max-width: 980px;
+  height: 379px;
+  background-image: linear-gradient(rgba(8, 173, 105, 0.8), rgba(8, 173, 105, 0.8)), url("../images/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#gallery3 .header-image {
+  color: rgb(8, 173, 105);
+}
+
+#gallery4 .header-image {
+  max-width: 980px;
+  height: 379px;
+  background-image: linear-gradient(rgba(84, 13, 110, 0.8), rgba(84, 13, 110, 0.8)), url("../images/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#gallery4 .header-image {
+  color: rgb(84, 13, 110);
+}
+
+#gallery5 .header-image {
+  max-width: 980px;
+  height: 379px;
+  background-image: linear-gradient(rgba(59, 206, 171, 0.8), rgba(59, 206, 171, 0.8)), url("../images/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#gallery5 .header-image {
+  color: rgb(59, 206, 171);
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery-item .header-image .header-text {
+    height: 90px;
+  }
+  .gallery-item .header-image .header-text p {
+    font-size: 90px;
+  }
+  .gallery-item .header-image .header-text span {
+    font-size: 40px;
+  }
+  .gallery-item .gallery-text {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .gallery-item .gallery-text .large {
+    width: 90%;
+  }
+  .gallery-item .gallery-text .small {
+    width: 90%;
   }
 }
 
