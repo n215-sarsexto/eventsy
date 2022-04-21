@@ -118,6 +118,116 @@ var aboutContent = `<div class="about-content">
 </div>
 </div>`;
 var galleryContent = ``;
+var gallery1Content = `<div class="gallery-item" id="gallery1">
+<div class="header-image">
+  <div class="header-text">
+    <p>1. <span>food festival</span></p>
+  </div>
+</div>
+<div class="gallery-text">
+  <p class="large">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+    eos qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="small">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
+var gallery2Content = `<div class="gallery-item" id="gallery2">
+<div class="header-image">
+  <div class="header-text">
+    <p>2. <span>dee-jay</span></p>
+  </div>
+</div>
+<div class="gallery-text">
+  <p class="large">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+    eos qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="small">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
+var gallery3Content = `<div class="gallery-item" id="gallery3">
+<div class="header-image">
+  <div class="header-text">
+    <p>3. <span>speech</span></p>
+  </div>
+</div>
+<div class="gallery-text">
+  <p class="large">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+    eos qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="small">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div> `;
+var gallery4Content = `<div class="gallery-item" id="gallery4">
+<div class="header-image">
+  <div class="header-text">
+    <p>4. <span>open foodfest</span></p>
+  </div>
+</div>
+<div class="gallery-text">
+  <p class="large">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+    eos qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="small">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
+var gallery5Content = `<div class="gallery-item" id="gallery5">
+<div class="header-image">
+  <div class="header-text">
+    <p>5. <span>international</span></p>
+  </div>
+</div>
+<div class="gallery-text">
+  <p class="large">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+    eos qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="small">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</div>`;
 var blogContent = ``;
 var contactContent = ``;
 
