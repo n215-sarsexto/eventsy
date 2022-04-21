@@ -1,0 +1,103 @@
+.blog{
+    width: $content-width;
+    min-height: 500px;
+    margin: 0 auto;
+
+    .blog-header{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 66px;
+        h2{
+            font-weight: normal;
+            font-size: 25px;
+            margin-bottom: 10.5px;
+        }
+        hr{
+            border: 1px solid #000;
+            width: 230px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .blog-pages{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 56px;
+
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .blog-page{
+            width: 460px;
+            min-height: 257px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+
+            .date{
+                width: 60px;
+                height: 60px;
+                background-color: $site-pink;
+                color: #fff;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                h4{
+                    font-size: 22px;
+                    margin-bottom: 0px;
+                    margin-top: 8px;
+                }
+                p{
+                    font-size: 12px;
+                    font-weight: lighter;
+                }
+            }
+            .content{
+                max-width: 380px;
+                min-height: 100%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                img{
+                    width: 100%;
+                    height: 140px;
+                    margin-bottom: 20px;
+                }
+                h5{
+                    font-size: 15px;
+                    margin-bottom: 11px;
+                }
+                p{
+                    font-size: 13px;
+                    color: $site-pink;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .blog{
+        width: 98%;
+        .blog-pages{
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .blog{
+        width: 98%;
+        .blog-pages{
+            flex-direction: column;
+            .blog-page{
+                width: 98%;
+                flex-direction: column;
+                .date{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

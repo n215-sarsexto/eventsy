@@ -272,6 +272,10 @@ footer h6 {
   margin: 0 auto;
   padding-top: 35px;
 }
+.events-container .events a {
+  text-decoration: none;
+  color: #fff;
+}
 .events-container .events .event {
   width: 220px;
   min-height: 215px;
@@ -674,6 +678,159 @@ footer h6 {
   }
   .gallery-item .gallery-text .small {
     width: 90%;
+  }
+}
+.blog {
+  width: 980px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.blog .blog-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 66px;
+}
+.blog .blog-header h2 {
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 10.5px;
+}
+.blog .blog-header hr {
+  border: 1px solid #000;
+  width: 230px;
+  margin-bottom: 10px;
+}
+.blog .blog-pages {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+}
+.blog .blog-pages a {
+  text-decoration: none;
+  color: #000;
+}
+.blog .blog-pages .blog-page {
+  width: 460px;
+  min-height: 257px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog .blog-pages .blog-page .date {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(238, 67, 103);
+  color: #fff;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog .blog-pages .blog-page .date h4 {
+  font-size: 22px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+.blog .blog-pages .blog-page .date p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.blog .blog-pages .blog-page .content {
+  max-width: 380px;
+  min-height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog .blog-pages .blog-page .content img {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 20px;
+}
+.blog .blog-pages .blog-page .content h5 {
+  font-size: 15px;
+  margin-bottom: 11px;
+}
+.blog .blog-pages .blog-page .content p {
+  font-size: 13px;
+  color: rgb(238, 67, 103);
+}
+
+@media only screen and (max-width: 768px) {
+  .blog {
+    width: 98%;
+  }
+  .blog .blog-pages {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .blog {
+    width: 98%;
+  }
+  .blog .blog-pages {
+    flex-direction: column;
+  }
+  .blog .blog-pages .blog-page {
+    width: 98%;
+    flex-direction: column;
+  }
+  .blog .blog-pages .blog-page .date {
+    margin-bottom: 10px;
+  }
+}
+.blog-item {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 150px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog-item .blog-hero {
+  max-width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url("../images/blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-item .blog-hero .blog-date {
+  width: 155px;
+  height: 155px;
+  background-color: rgb(238, 67, 103);
+  color: #fff;
+  text-align: center;
+}
+.blog-item .blog-hero .blog-date h1 {
+  font-size: 55px;
+  margin-bottom: 0px;
+  margin-top: 24px;
+}
+.blog-item .blog-hero .blog-date h2 {
+  font-size: 31px;
+  font-weight: lighter;
+}
+.blog-item .blog-text {
+  width: 856px;
+  font-size: 20px;
+}
+.blog-item .blog-text h3 {
+  margin-top: 56px;
+  color: rgb(238, 67, 103);
+  font-weight: regular;
+}
+.blog-item .blog-text p {
+  margin-bottom: 33px;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-item {
+    width: 98%;
+  }
+  .blog-item .blog-text {
+    width: 100%;
   }
 }
 
