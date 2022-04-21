@@ -277,7 +277,7 @@ footer h6 {
   color: #fff;
 }
 .events-container .events .event {
-  width: 220px;
+  max-width: 220px;
   min-height: 215px;
   display: flex;
   justify-content: space-between;
@@ -285,6 +285,7 @@ footer h6 {
 .events-container .events .event .date {
   width: 60px;
   height: 60px;
+  margin-right: 10px;
   background-color: rgb(238, 67, 103);
   color: #fff;
   text-align: center;
@@ -300,7 +301,7 @@ footer h6 {
   font-weight: lighter;
 }
 .events-container .events .event .content {
-  width: 140px;
+  max-width: 140px;
   height: 100%;
 }
 .events-container .events .event .content h5 {
@@ -323,26 +324,17 @@ footer h6 {
   .events-container .events {
     flex-direction: column;
   }
-  .events-container .events .event {
-    flex-direction: column;
-  }
 }
 @media only screen and (max-width: 1024px) {
   /* For medium screens */
   .events-container {
     min-height: 400px;
   }
+  .events-container .events {
+    width: 98%;
+  }
   .events-container .events .event {
     flex-direction: column;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  /* For large screens */
-  .events-container .events .event {
-    width: 220px;
-    height: 215px;
-    display: flex;
-    justify-content: space-between;
   }
 }
 .about-content {

@@ -33,7 +33,7 @@
         }
 
         .event{
-            width: 220px;
+            max-width: 220px;
             min-height: 215px;
             display: flex;
             justify-content: space-between;
@@ -42,6 +42,7 @@
             .date{
                 width: 60px;
                 height: 60px;
+                margin-right: 10px;
                 background-color: $site-pink;
                 color: #fff;
                 text-align: center;
@@ -57,7 +58,7 @@
                 }
             }
             .content{
-                width: 140px;
+                max-width: 140px;
                 height: 100%;
 
                 h5{
@@ -83,9 +84,6 @@
         min-height: 400px;
         .events{
             flex-direction: column;
-            .event{
-                flex-direction: column;
-            }
         }
     }
 }
@@ -95,23 +93,9 @@
     .events-container{
         min-height: 400px;
         .events{
+            width: 98%;
             .event{
                 flex-direction: column;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1200px){
-    /* For large screens */
-
-    .events-container{
-        .events{
-            .event{
-                width: 220px;
-                height: 215px;
-                display: flex;
-                justify-content: space-between;
             }
         }
     }
